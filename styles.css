@@ -35,6 +35,13 @@ main{
     padding: 12px 36px;
     border-radius: 5px;
 }
+.ho:hover{
+  background-color: rgb(243, 247, 57);
+  color : black;
+  cursor: pointer;
+  box-shadow: 0 5px 8px rgb(37, 36, 36);
+  border : none;
+}
 .header{
     background-image: url('Assets/Hero-bg.png');
     height: 698px;
@@ -94,6 +101,7 @@ nav a{
 }
 .one{
     margin: 150px 116px;
+    background-color: #FFFFFF;
     
 }
 .action{
@@ -251,12 +259,13 @@ main input[type="text"],main input[type="email"],main textarea{
     height: 70px;
     width: 497px;
     border-radius: 5px;
-    background-color: white;
+    background-color: #FFFFFF;
     display: block;
     padding:  20px 32px;
     margin-bottom: 50px;
     border: none;
     margin-top: 10px;
+    border-radius: 10px;
 }
 ::placeholder {
   
