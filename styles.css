@@ -1,4 +1,8 @@
-
+*{
+    margin-top: 0px;
+    padding: 0px;
+    border-top: none;
+}
 
 .raleway-normal{
   font-family: "Raleway", sans-serif;
@@ -11,10 +15,13 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
-
+main{
+    background-color: #f5f7ff;
+}
 /* shared style */
 .text-primary{
     color: #4E47FF;
+     
 }
 .dark1{
     color: #252432;
@@ -30,6 +37,9 @@
 }
 .header{
     background-image: url('Assets/Hero-bg.png');
+    height: 698px;
+    text-align: center;
+    align-items: center;
 }
 
 .section-title{
@@ -50,8 +60,8 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 50px 150px;
-    padding: 50;
+    padding: 50px 150px;
+    margin-top: 0px;
     
 }
     .nav-title{
@@ -93,9 +103,10 @@ nav a{
 
 /* /section two */
 .two{
-   margin: 150px;
+   margin: 116px 150px 137px 150px;
    padding: 80px 50px;
    background-color:#E7E9FD;
+   border-radius: 24px;
 }
 .two-text{
     color: #252432;
@@ -125,7 +136,8 @@ nav a{
 
 /* section three */
 .three{
-        padding:50px ;
+        margin: 0px 150px 142px 150px ;
+        background-color: #FFFFFF 100%;
 }
 .three-text{
     font-size: 42px;
@@ -185,8 +197,9 @@ nav a{
     
     text-align: center;
     align-items: center;
-    
-    background-color: rgba(255, 255, 255, 1);
+    margin:0px 150px 150px 0px;
+    padding: 71px 150px;
+    background-color: #FFFFFF;
 }
 .four-head{
     font-size: 50px;
@@ -211,3 +224,85 @@ nav a{
     margin-bottom: 20px;
 }
 
+/* section five */
+.five{
+    display: flex;
+    align-items: center;
+    gap: auto;
+    justify-content: space-between;
+    margin: 83px 150px 19px 150px;
+    padding: 71px 0px;
+}  
+  label{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 100px;
+  }
+.five-heading{
+    
+    width: 50%;
+    font-size: 97px;
+    font-weight: bold;
+}
+
+
+main input[type="text"],main input[type="email"],main textarea{
+    height: 70px;
+    width: 497px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    padding:  20px 32px;
+    margin-bottom: 50px;
+    border: none;
+    margin-top: 10px;
+}
+::placeholder {
+  
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: normal;
+  
+}
+
+/* footer styles */
+.foot-logo{
+    font-size: 100px;
+    font-weight: bolder;
+    margin: 10px;
+}
+footer{
+    text-align: center;
+    margin: 104px 455px 103px 456px;
+
+}
+.foot-para{
+        font-family: Inter;
+        font-size: 12px;
+        color: #8987A1;
+}
+footer ul{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+footer ul li {
+    list-style: none;
+    margin-right: 50px;
+    
+
+}
+footer li a {
+    text-decoration: none;
+    font-size: 12px;
+    font-family: Inter;
+    color: #8987A1;
+}
+.list-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
